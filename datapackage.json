@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "compras-emergenciais-covid-19",
-      "path": "data/compras-emergenciais-covid-19.csv",
+      "path": "https://raw.githubusercontent.com/transparencia-mg/dt-contratacoes-coronavirus/master/data/compras-coronavirus.csv",
       "profile": "tabular-data-resource",
       "resourceType": "text/csv",
       "schema": {
