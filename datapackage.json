@@ -8,331 +8,237 @@
       "resourceType": "text/csv",
       "schema": {
         "fields": [
-           {
+          {
             "name": "NUMERO_PROCESSO_COMPRA",
             "type": "string",
             "format": "default",
             "description": "Código do órgão ou entidade contratante",
             "title": "Código Órgão Entidade"
-            },
-             {
-             "name": "NUMERO_PROCESSO_COMPRA",
-              "title": "Número do Processo de Compra ",
-   "type": "string",
-   "format": "default",
-   "description"
-: "Número identificador do processo de compras no Portal de Compras"
- },
- {
-   "name":
- "URL_PORTAL_TRANSPARENCIA",
-   "title":
- "URL Portal da Transparência",
-   "Tipo": "URL",
-   "format": "default",
-   "description"
-: "Detalhamento do processo de compras no Portal da Transparência"
- },
- {
-   "name":
- "DATA_CADASTRAMENTO_PROCESSO",
-   "title":
- "Data de Cadastramento do Processo ",
-   "type": "number",
-   "format": "default",
-   "description"
-: "Data do cadastro do processo de compras"
- },
- {
-   "name":
- "OBJETO_PROCESSO",
-   "title":
- "Objeto do Processo ",
-   "type": "string",
-   "format": "default",
-   "description"
-: "Descrição dos bens e serviços que estão sendo comprados e sua finalidade"
- },
- {
-   "name":
- "URL_DOCUMENTOS_PROCESSO",
-   "title":
- "URL Documentos do Processo ",
-   "Tipo": "URL",
-   "format": "default",
-   "description"
-: "Relação dos documentos do processo de compra: Edital e suas retificações, relatório de detalhes de processo de compra, dados do pregão e outros arquivos relacionados ao processo."
- },
- {
-   "name":
- "CODIGO_ORGAO_DEMANDANTE",
-   "title":
- "Código Órgão Demandante ",
-   "type": "number",
-   "format": "default",
-   "description"
-: "Código do órgão ou entidade demandante"
- },
- {
-   "name":
- "ORGAO_DEMANDANTE",
-   "title":
- "Órgão Demandante ",
-   "type": "string",
-   "format": "default",
-   "description"
-: "Órgão ou entidade que solicitou a compra de determinado material/serviço. Pode coincidir ou não com o órgão que está executando o processo de compra."
- },
- {
-   "name":
- "SITUACAO_PROCESSO",
-   "title":
- "Situação do Processo ",
-   "type": "string",
-   "format": "default",
-   "description"
-: "Situação do processo de compra (concluído suspenso, em andamento, etc..). Quanto aos processos de compra com situação em andamento, são considerados apenas os itens já homologados desses processos."
- },
- {
-   "name":
- "PROCEDIMENTO_CONTRATACAO",
-   "title":
- "Procedimento de Contratação ",
-   "type": "string",
-   "format": "default",
-   "description"
-: "Inclui as modalidades de licitação (concorrência, tomada de preços, convite e leilão), pregão, dispensa, inexigibilidade, registro de preços, etc."
- },
- {
-   "name":
- "NUMERO_Contrato",
-   "title":
- "Número do Contrato ",
-   "type": "number",
-   "format": "default",
-   "description"
-: "Número do Contrato registrado no Sistema Integrado de Administração Financeira de Minas Gerais (SIAFI-MG).  \"NA\" em caso de ausência de Contratos por serem de entrega imediata."
- },
- {
-   "name":
- "URL_INTEGRA_Contrato",
-   "title":
- "URL Íntegra Contrato",
-   "Tipo": "URL",
-   "format": "default",
-   "description"
-: "Link para íntegra do termo do Contrato celebrado e seus eventuais termos aditivos ou modificativos."
- },
- {
-   "name":
- "CODIGO_ORGAO_Contrato",
-   "title":
- "Código Órgão Contrato",
-   "type": "number",
-   "format": "default",
-   "description"
-: "Código do órgão ou entidade que formalizou o instrumento de contratação."
- },
- {
-   "name":
- "ORGAO_Contrato",
-   "title":
- "Órgão Contrato ",
-   "type": "string",
-   "format": "default",
-   "description"
-: "Nome do órgão ou entidade responsável pelo Contrato"
- },
- {
-   "name":
- "DATA_PUBLICACAO",
-   "title":
- "Data da Publicação ",
-   "Tipo": "Data",
-   "format": "default",
-   "description"
-: "Data, no formato YYYY-MM-DD, de publicação do Contrato no IOF"
- },
- {
-   "name":
- "INICIO_VIGENCIA",
-   "title":
- "Início da Vigência ",
-   "Tipo": "Data",
-   "format": "default",
-   "description"
-: "Data, no formato YYYY-MM-DD, de início da vigência do Contrato"
- },
- {
-   "name":
- "FIM_VIGENCIA",
-   "title":
- "Fim da Vigência ",
-   "Tipo": "Data",
-   "format": "default",
-   "description"
-: "Data, no formato YYYY-MM-DD, de fim da vigência do Contrato"
- },
- {
-   "name":
- "FIM_VIGENCIA_ATUALIZADA",
-   "title":
- "Fim da Vigência Atualizada ",
-   "Tipo": "Data",
-   "format": "default",
-   "description"
-: "Data, no formato YYYY-MM-DD, atualizada do fim da vigência do Contrato"
- },
- {
-   "name":
- "CPF_CNPJ_CONTRATADO",
-   "title":
- "CPF/CNPJ do Contratado ",
-   "type": "number",
-   "format": "default",
-   "description"
-: "Número de identificação do fornecedor. Pessoa Jurídica – CNPJ. Pessoa física - CPF. Formato: (eg. xx.xxx.xxx/yyyy-zz e xxx.xxx.xxx-zz)."
- },
- {
-   "name":
- "CONTRATADO",
-   "title":
- "Contratado ",
-   "type": "string",
-   "format": "default",
-   "description"
-: "Nome da pessoa física ou jurídica contratada para prestar um serviço ou entregar bens materiais ao Estado."
- },
- {
-   "name":
- "PROCESSO_SEI",
-   "title":
- "Número do Processo SEI",
-   "type": "string",
-   "format": "default",
-   "description"
-: "Número do processo eletrônico no Sistema Eletrônico de Informações (SEI) que identifica a contratação"
- },
- {
-   "name":
- "URL_PROCESSO_SEI",
-   "title":
- "URL Íntegra Processo SEI",
-   "Tipo": "URL",
-   "format": "default",
-   "description"
-: "Link para consulta do processo eletrônico no Sistema Eletrônico de Informações (SEI)"
- },
- {
-   "name":
- "CODIGO_ITEM_MATERIAL_SERVICO",
-   "title":
- "Código Item Material/Serviço",
-   "type": "number",
-   "format": "default",
-   "description"
-: "Código do item de material ou serviço adquirido pelo Estado."
- },
- {
-   "name":
- "ITEM_MATERIAL_SERVICO",
-   "title":
- "Item Material/Serviço",
-   "type": "string",
-   "format": "default",
-   "description"
-: "Descrição dos itens de materiais ou serviços adquiridos pelo Estado."
- },
- {
-   "name":
- "CODIGO_UNIDADE_ORCAMENTARIA",
-   "title":
- "Código Unidade Orçamentária",
-   "type": "number",
-   "format": "default",
-   "description"
-: "Código da unidade orçamentária vinculada ao item material/serviço."
- },
- {
-   "name":
- "UNIDADE_ORCAMENTARIA",
-   "title":
- "Unidade Orçamentária",
-   "type": "string",
-   "format": "default",
-   "description"
-: "Nome da Unidade Orçamentária vinculada ao item material/serviço."
- },
- {
-   "name":
- "LINHA_FORNECIMENTO",
-   "title":
- "Linha Fornecimento",
-   "type": "string",
-   "format": "default",
-   "description"
-: "Descrição da linha de fornecimento vinculada ao item material/serviço."
- },
- {
-   "name":
- "CIDADE_ENTREGA",
-   "title":
- "Cidade Entrega",
-   "type": "string",
-   "format": "default",
-   "description"
-: "Nome da cidade de entrega vinculada ao item de material/serviço"
- },
- {
-   "name":
- "QUANTIDADE_HOMOLOGADA",
-   "title":
- "Quantidade Homologada",
-   "type": "number",
-   "format": "default",
-   "description"
-: "Quantidade homologada para o item de material/serviço"
- },
- {
-   "name":
- "VALOR_REFERENCIA_UNITARIO",
-   "title":
- "Valor Unitário Referência",
-   "type": "number",
-   "format": "default",
-   "description"
-: "Valor unitário estimado de um determinado bem ou serviço, obtido por meio de pesquisa de mercado ou cadastro de preços."
- },
- {
-   "name":
- "VALOR_HOMOLOGADO_UNITARIO",
-   "title":
- "Valor Unitário Homologado",
-   "type": "number",
-   "format": "default",
-   "description"
-: "Valor unitário final licitado ou comprado"
- },
- {
-   "name":
- "VALOR_REFERENCIA",
-   "title":
- "Valor de Referência ",
-   "type": "number",
-   "format": "default",
-   "description"
-: "Valor estimado de um determinado bem ou serviço, obtido por meio de pesquisa de mercado ou cadastro de preços."
- },
- {
-   "name":
- "VALOR_HOMOLOGADO",
-   "title":
- "Valor Homologado ",
-   "type": "number",
-   "format": "default",
-   "description"
-: "Valor final licitado ou comprado"
- }
+          },
+          {
+            "name": "NUMERO_PROCESSO_COMPRA",
+            "title": "Número do Processo de Compra ",
+            "type": "string",
+            "format": "default",
+            "description": "Número identificador do processo de compras no Portal de Compras"
+          },
+          {
+            "name": "URL_PORTAL_TRANSPARENCIA",
+            "title": "URL Portal da Transparência",
+            "Tipo": "URL",
+            "format": "default",
+            "description": "Detalhamento do processo de compras no Portal da Transparência"
+          },
+          {
+            "name": "DATA_CADASTRAMENTO_PROCESSO",
+            "title": "Data de Cadastramento do Processo ",
+            "type": "number",
+            "format": "default",
+            "description": "Data do cadastro do processo de compras"
+          },
+          {
+            "name": "OBJETO_PROCESSO",
+            "title": "Objeto do Processo ",
+            "type": "string",
+            "format": "default",
+            "description": "Descrição dos bens e serviços que estão sendo comprados e sua finalidade"
+          },
+          {
+            "name": "URL_DOCUMENTOS_PROCESSO",
+            "title": "URL Documentos do Processo ",
+            "Tipo": "URL",
+            "format": "default",
+            "description": "Relação dos documentos do processo de compra: Edital e suas retificações, relatório de detalhes de processo de compra, dados do pregão e outros arquivos relacionados ao processo."
+          },
+          {
+            "name": "CODIGO_ORGAO_DEMANDANTE",
+            "title": "Código Órgão Demandante ",
+            "type": "number",
+            "format": "default",
+            "description": "Código do órgão ou entidade demandante"
+          },
+          {
+            "name": "ORGAO_DEMANDANTE",
+            "title": "Órgão Demandante ",
+            "type": "string",
+            "format": "default",
+            "description": "Órgão ou entidade que solicitou a compra de determinado material/serviço. Pode coincidir ou não com o órgão que está executando o processo de compra."
+          },
+          {
+            "name": "SITUACAO_PROCESSO",
+            "title": "Situação do Processo ",
+            "type": "string",
+            "format": "default",
+            "description": "Situação do processo de compra (concluído suspenso, em andamento, etc..). Quanto aos processos de compra com situação em andamento, são considerados apenas os itens já homologados desses processos."
+          },
+          {
+            "name": "PROCEDIMENTO_CONTRATACAO",
+            "title": "Procedimento de Contratação ",
+            "type": "string",
+            "format": "default",
+            "description": "Inclui as modalidades de licitação (concorrência, tomada de preços, convite e leilão), pregão, dispensa, inexigibilidade, registro de preços, etc."
+          },
+          {
+            "name": "NUMERO_Contrato",
+            "title": "Número do Contrato ",
+            "type": "number",
+            "format": "default",
+            "description": "Número do Contrato registrado no Sistema Integrado de Administração Financeira de Minas Gerais (SIAFI-MG).  \"NA\" em caso de ausência de Contratos por serem de entrega imediata."
+          },
+          {
+            "name": "URL_INTEGRA_Contrato",
+            "title": "URL Íntegra Contrato",
+            "Tipo": "URL",
+            "format": "default",
+            "description": "Link para íntegra do termo do Contrato celebrado e seus eventuais termos aditivos ou modificativos."
+          },
+          {
+            "name": "CODIGO_ORGAO_Contrato",
+            "title": "Código Órgão Contrato",
+            "type": "number",
+            "format": "default",
+            "description": "Código do órgão ou entidade que formalizou o instrumento de contratação."
+          },
+          {
+            "name": "ORGAO_Contrato",
+            "title": "Órgão Contrato ",
+            "type": "string",
+            "format": "default",
+            "description": "Nome do órgão ou entidade responsável pelo Contrato"
+          },
+          {
+            "name": "DATA_PUBLICACAO",
+            "title": "Data da Publicação ",
+            "Tipo": "Data",
+            "format": "default",
+            "description": "Data, no formato YYYY-MM-DD, de publicação do Contrato no IOF"
+          },
+          {
+            "name": "INICIO_VIGENCIA",
+            "title": "Início da Vigência ",
+            "Tipo": "Data",
+            "format": "default",
+            "description": "Data, no formato YYYY-MM-DD, de início da vigência do Contrato"
+          },
+          {
+            "name": "FIM_VIGENCIA",
+            "title": "Fim da Vigência ",
+            "Tipo": "Data",
+            "format": "default",
+            "description": "Data, no formato YYYY-MM-DD, de fim da vigência do Contrato"
+          },
+          {
+            "name": "FIM_VIGENCIA_ATUALIZADA",
+            "title": "Fim da Vigência Atualizada ",
+            "Tipo": "Data",
+            "format": "default",
+            "description": "Data, no formato YYYY-MM-DD, atualizada do fim da vigência do Contrato"
+          },
+          {
+            "name": "CPF_CNPJ_CONTRATADO",
+            "title": "CPF/CNPJ do Contratado ",
+            "type": "number",
+            "format": "default",
+            "description": "Número de identificação do fornecedor. Pessoa Jurídica – CNPJ. Pessoa física - CPF. Formato: (eg. xx.xxx.xxx/yyyy-zz e xxx.xxx.xxx-zz)."
+          },
+          {
+            "name": "CONTRATADO",
+            "title": "Contratado ",
+            "type": "string",
+            "format": "default",
+            "description": "Nome da pessoa física ou jurídica contratada para prestar um serviço ou entregar bens materiais ao Estado."
+          },
+          {
+            "name": "PROCESSO_SEI",
+            "title": "Número do Processo SEI",
+            "type": "string",
+            "format": "default",
+            "description": "Número do processo eletrônico no Sistema Eletrônico de Informações (SEI) que identifica a contratação"
+          },
+          {
+            "name": "URL_PROCESSO_SEI",
+            "title": "URL Íntegra Processo SEI",
+            "Tipo": "URL",
+            "format": "default",
+            "description": "Link para consulta do processo eletrônico no Sistema Eletrônico de Informações (SEI)"
+          },
+          {
+            "name": "CODIGO_ITEM_MATERIAL_SERVICO",
+            "title": "Código Item Material/Serviço",
+            "type": "number",
+            "format": "default",
+            "description": "Código do item de material ou serviço adquirido pelo Estado."
+          },
+          {
+            "name": "ITEM_MATERIAL_SERVICO",
+            "title": "Item Material/Serviço",
+            "type": "string",
+            "format": "default",
+            "description": "Descrição dos itens de materiais ou serviços adquiridos pelo Estado."
+          },
+          {
+            "name": "CODIGO_UNIDADE_ORCAMENTARIA",
+            "title": "Código Unidade Orçamentária",
+            "type": "number",
+            "format": "default",
+            "description": "Código da unidade orçamentária vinculada ao item material/serviço."
+          },
+          {
+            "name": "UNIDADE_ORCAMENTARIA",
+            "title": "Unidade Orçamentária",
+            "type": "string",
+            "format": "default",
+            "description": "Nome da Unidade Orçamentária vinculada ao item material/serviço."
+          },
+          {
+            "name": "LINHA_FORNECIMENTO",
+            "title": "Linha Fornecimento",
+            "type": "string",
+            "format": "default",
+            "description": "Descrição da linha de fornecimento vinculada ao item material/serviço."
+          },
+          {
+            "name": "CIDADE_ENTREGA",
+            "title": "Cidade Entrega",
+            "type": "string",
+            "format": "default",
+            "description": "Nome da cidade de entrega vinculada ao item de material/serviço"
+          },
+          {
+            "name": "QUANTIDADE_HOMOLOGADA",
+            "title": "Quantidade Homologada",
+            "type": "number",
+            "format": "default",
+            "description": "Quantidade homologada para o item de material/serviço"
+          },
+          {
+            "name": "VALOR_REFERENCIA_UNITARIO",
+            "title": "Valor Unitário Referência",
+            "type": "number",
+            "format": "default",
+            "description": "Valor unitário estimado de um determinado bem ou serviço, obtido por meio de pesquisa de mercado ou cadastro de preços."
+          },
+          {
+            "name": "VALOR_HOMOLOGADO_UNITARIO",
+            "title": "Valor Unitário Homologado",
+            "type": "number",
+            "format": "default",
+            "description": "Valor unitário final licitado ou comprado"
+          },
+          {
+            "name": "VALOR_REFERENCIA",
+            "title": "Valor de Referência ",
+            "type": "number",
+            "format": "default",
+            "description": "Valor estimado de um determinado bem ou serviço, obtido por meio de pesquisa de mercado ou cadastro de preços."
+          },
+          {
+            "name": "VALOR_HOMOLOGADO",
+            "title": "Valor Homologado ",
+            "type": "number",
+            "format": "default",
+            "description": "Valor final licitado ou comprado"
+          }
         ]
       }
     }
@@ -341,23 +247,22 @@
   "title": "Compras Emergenciais COVID-19",
   "description": "Este conjunto de dados contém relação das contratações celebradas pelo Governo de Minas Gerais com fulcro na Lei Federal n. 13.979 de 06 de fevereiro de 2020 para enfrentamento da emergência de saúde pública de importância internacional decorrente do coronavírus.",
   "homepage": "www.dados.mg.gov.br/dataset/compras-emergenciais-COVID-19",
-  "update":"true",
-  "commit":"",
-  "sources":[
-  ],  
+  "update": "true",
+  "commit": "",
+  "sources": [],
   "contributors": [
-  {
-  "title": "Diretoria de Transparência Ativa",
-  "path": "http://cge.mg.gov.br/a-cge/quem-e-quem/subcontroladoria-de-transparencia-e-integridade",
-  "role": "publisher",
-  "email": "transparencia@cge.mg.gov.br"
-  }
+    {
+      "title": "Diretoria de Transparência Ativa",
+      "path": "http://cge.mg.gov.br/a-cge/quem-e-quem/subcontroladoria-de-transparencia-e-integridade",
+      "role": "publisher",
+      "email": "transparencia@cge.mg.gov.br"
+    }
   ],
   "licenses": [
-  {
-  "name": "CC-BY-SA-4.0",
-  "title": "Creative Commons Attribution Share-Alike 4.0",
-  "path": "https://creativecommons.org/licenses/by-sa/4.0/"
-  }
- ]
+    {
+      "name": "CC-BY-SA-4.0",
+      "title": "Creative Commons Attribution Share-Alike 4.0",
+      "path": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ]
 }
