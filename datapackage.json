@@ -10,13 +10,6 @@
         "fields": [
           {
             "name": "NUMERO_PROCESSO_COMPRA",
-            "type": "string",
-            "format": "default",
-            "description": "Código do órgão ou entidade contratante",
-            "title": "Código Órgão Entidade"
-          },
-          {
-            "name": "NUMERO_PROCESSO_COMPRA",
             "title": "Número do Processo de Compra ",
             "type": "string",
             "format": "default",
@@ -79,28 +72,28 @@
             "description": "Inclui as modalidades de licitação (concorrência, tomada de preços, convite e leilão), pregão, dispensa, inexigibilidade, registro de preços, etc."
           },
           {
-            "name": "NUMERO_Contrato",
+            "name": "NUMERO_CONTRATO",
             "title": "Número do Contrato ",
             "type": "number",
             "format": "default",
             "description": "Número do Contrato registrado no Sistema Integrado de Administração Financeira de Minas Gerais (SIAFI-MG).  \"NA\" em caso de ausência de Contratos por serem de entrega imediata."
           },
           {
-            "name": "URL_INTEGRA_Contrato",
+            "name": "URL_INTEGRA_CONTRATO",
             "title": "URL Íntegra Contrato",
             "Tipo": "URL",
             "format": "default",
             "description": "Link para íntegra do termo do Contrato celebrado e seus eventuais termos aditivos ou modificativos."
           },
           {
-            "name": "CODIGO_ORGAO_Contrato",
+            "name": "CODIGO_ORGAO_CONTRATO",
             "title": "Código Órgão Contrato",
             "type": "number",
             "format": "default",
             "description": "Código do órgão ou entidade que formalizou o instrumento de contratação."
           },
           {
-            "name": "ORGAO_Contrato",
+            "name": "ORGAO_CONTRATO",
             "title": "Órgão Contrato ",
             "type": "string",
             "format": "default",
