@@ -25,7 +25,7 @@
           {
             "name": "DATA_CADASTRAMENTO_PROCESSO",
             "title": "Data de Cadastramento do Processo ",
-            "type": "number",
+            "type": "date",
             "format": "default",
             "description": "Data do cadastro do processo de compras"
           },
@@ -74,7 +74,7 @@
           {
             "name": "NUMERO_CONTRATO",
             "title": "Número do Contrato ",
-            "type": "number",
+            "type": "string",
             "format": "default",
             "description": "Número do Contrato registrado no Sistema Integrado de Administração Financeira de Minas Gerais (SIAFI-MG).  \"NA\" em caso de ausência de Contratos por serem de entrega imediata."
           },
@@ -102,35 +102,35 @@
           {
             "name": "DATA_PUBLICACAO",
             "title": "Data da Publicação ",
-            "Tipo": "Data",
+            "Tipo": "date",
             "format": "default",
             "description": "Data, no formato YYYY-MM-DD, de publicação do Contrato no IOF"
           },
           {
             "name": "INICIO_VIGENCIA",
             "title": "Início da Vigência ",
-            "Tipo": "Data",
+            "Tipo": "date",
             "format": "default",
             "description": "Data, no formato YYYY-MM-DD, de início da vigência do Contrato"
           },
           {
             "name": "FIM_VIGENCIA",
             "title": "Fim da Vigência ",
-            "Tipo": "Data",
+            "Tipo": "date",
             "format": "default",
             "description": "Data, no formato YYYY-MM-DD, de fim da vigência do Contrato"
           },
           {
             "name": "FIM_VIGENCIA_ATUALIZADA",
             "title": "Fim da Vigência Atualizada ",
-            "Tipo": "Data",
+            "Tipo": "date",
             "format": "default",
             "description": "Data, no formato YYYY-MM-DD, atualizada do fim da vigência do Contrato"
           },
           {
             "name": "CPF_CNPJ_CONTRATADO",
             "title": "CPF/CNPJ do Contratado ",
-            "type": "number",
+            "type": "string",
             "format": "default",
             "description": "Número de identificação do fornecedor. Pessoa Jurídica – CNPJ. Pessoa física - CPF. Formato: (eg. xx.xxx.xxx/yyyy-zz e xxx.xxx.xxx-zz)."
           },
