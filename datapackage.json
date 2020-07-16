@@ -232,30 +232,13 @@
             "format": "default",
             "description": "Valor final licitado ou comprado"
           }
-        ]
+        ],
+        "missingValues": ["NA"]
       }
     }
   ],
   "name": "compras-emergenciais-covid-19",
   "title": "Compras Emergenciais COVID-19",
   "description": "Este conjunto de dados contém relação das contratações celebradas pelo Governo de Minas Gerais com fulcro na Lei Federal n. 13.979 de 06 de fevereiro de 2020 para enfrentamento da emergência de saúde pública de importância internacional decorrente do coronavírus.",
-  "homepage": "www.dados.mg.gov.br/dataset/compras-emergenciais-covid-19",
-  "update": "true",
-  "commit": "",
-  "sources": [],
-  "contributors": [
-    {
-      "title": "Diretoria de Transparência Ativa",
-      "path": "http://cge.mg.gov.br/a-cge/quem-e-quem/subcontroladoria-de-transparencia-e-integridade",
-      "role": "publisher",
-      "email": "transparencia@cge.mg.gov.br"
-    }
-  ],
-  "licenses": [
-    {
-      "name": "CC-BY-SA-4.0",
-      "title": "Creative Commons Attribution Share-Alike 4.0",
-      "path": "https://creativecommons.org/licenses/by-sa/4.0/"
-    }
-  ]
+  "update": "true"
 }
