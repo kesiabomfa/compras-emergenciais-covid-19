@@ -10,4 +10,4 @@ result <- input %>%
             recode() %>% 
             enrich()
 
-data.table::fwrite(result, file = output, sep = ";", dec = ",", bom = TRUE)
+data.table::fwrite(result, file = output, sep = ";", dec = ",", bom = TRUE, na = "NA")
