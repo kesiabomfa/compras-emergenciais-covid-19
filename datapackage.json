@@ -240,7 +240,7 @@
         "missingValues": ["NA"]
       },
       "dialect": {
-      "delimiter": ","
+      "delimiter": ";"
       }
     }
   ],
