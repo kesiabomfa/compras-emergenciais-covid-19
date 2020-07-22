@@ -213,6 +213,7 @@
             "title": "Valor Unitário Referência",
             "type": "number",
             "format": "default",
+            "decimalChar": ",",
             "description": "Valor unitário estimado de um determinado bem ou serviço, obtido por meio de pesquisa de mercado ou cadastro de preços."
           },
           {
@@ -220,6 +221,7 @@
             "title": "Valor Unitário Homologado",
             "type": "number",
             "format": "default",
+            "decimalChar": ",",
             "description": "Valor unitário final licitado ou comprado"
           },
           {
@@ -227,6 +229,7 @@
             "title": "Valor de Referência ",
             "type": "number",
             "format": "default",
+            "decimalChar": ",",
             "description": "Valor estimado de um determinado bem ou serviço, obtido por meio de pesquisa de mercado ou cadastro de preços."
           },
           {
@@ -234,6 +237,7 @@
             "title": "Valor Homologado ",
             "type": "number",
             "format": "default",
+            "decimalChar": ",",
             "description": "Valor final licitado ou comprado"
           }
         ],
